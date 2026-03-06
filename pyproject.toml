@@ -13,9 +13,9 @@ dependencies = [
     
     # === Calculus 1-4 (Matte 1k-4k) ===
     "numpy>=2.3.2",            # Numerical computing, arrays, linear algebra
-    "matplotlib>=3.10.5",      # 2D plotting for functions and graphs
+    # "matplotlib>=3.10.5",      # 2D plotting for functions and graphs
     # "scipy>=1.16.1",         # Integration, differentiation, optimization (Calculus 2+)
-    "sympy>=1.13.3",           # Symbolic mathematics and calculus
+    # "sympy>=1.13.3",           # Symbolic mathematics and calculus
     # "plotly>=5.24.1",        # Interactive 3D plots for multivariable calculus (Calculus 3+)
     
     # === Intro to AI / Kunstig Intelligens (ny) ===
