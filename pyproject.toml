@@ -19,7 +19,7 @@ dependencies = [
     # "plotly>=5.24.1",        # Interactive 3D plots for multivariable calculus (Calculus 3+)
     
     # === Intro to AI / Kunstig Intelligens (ny) ===
-    "scikit-learn>=1.5.0",     # Linear, logistic regression, SVM, etc.
+    #"scikit-learn>=1.5.0",     # Linear, logistic regression, SVM, etc.
     "pandas>=2.3.2",           # Data manipulation and analysis
     # "tensorflow>=2.15.0",    # Neural networks and deep learning
     # "keras>=3.0.0",          # High-level neural network API
@@ -30,11 +30,11 @@ dependencies = [
     # pandas>=2.3.2            # Already included above
     # numpy>=2.3.2             # Already included above
     # matplotlib>=3.10.5       # Already included above
-    "seaborn>=0.13.2",         # Statistical visualization
+    #"seaborn>=0.13.2",         # Statistical visualization
     
     # === Statistical Analysis (regression, linear models, PDP plots) ===
     # pandas>=2.3.2            # Already included above
-    "statsmodels>=0.14.0",     # Statistical models, regression analysis
+    #"statsmodels>=0.14.0",     # Statistical models, regression analysis
     # seaborn>=0.13.2          # Already included above
     # scikit-learn>=1.5.0      # Already included above (for PDP plots)
     
