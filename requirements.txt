@@ -1,1 +1,11 @@
-matplotlib
+# This file is documentation only, not a pip requirements file.
+# The actual dependencies are in pyproject.toml, managed by uv.
+
+# --- Tool required ---
+# uv (https://docs.astral.sh/uv/)
+
+# Install uv:
+# Windows (PowerShell):
+#   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+# macOS/Linux:
+#   curl -LsSf https://astral.sh/uv/install.sh | sh

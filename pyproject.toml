@@ -1,0 +1,57 @@
+[project]
+name = "your-project-name"
+version = "0.1.0"
+description = "Interactive notebooks for mathematical concepts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # === Core notebook infrastructure (always needed) ===
+    "jupyter>=1.1.1",          # Notebook interface
+    "jupyterlab>=4.3.5",       # Modern notebook UI
+    "ipykernel>=6.29.0",       # Python kernel for notebooks
+    "ipywidgets>=8.1.5",       # Interactive widgets in notebooks
+    
+    # === Calculus 1-4 (Matte 1k-4k) ===
+    "numpy>=2.3.2",            # Numerical computing, arrays, linear algebra
+    "matplotlib>=3.10.5",      # 2D plotting for functions and graphs
+    # "scipy>=1.16.1",         # Integration, differentiation, optimization (Calculus 2+)
+    "sympy>=1.13.3",           # Symbolic mathematics and calculus
+    # "plotly>=5.24.1",        # Interactive 3D plots for multivariable calculus (Calculus 3+)
+    
+    # === Intro to AI / Kunstig Intelligens (ny) ===
+    "scikit-learn>=1.5.0",     # Linear, logistic regression, SVM, etc.
+    "pandas>=2.3.2",           # Data manipulation and analysis
+    # "tensorflow>=2.15.0",    # Neural networks and deep learning
+    # "keras>=3.0.0",          # High-level neural network API
+    # "torch>=2.1.0",          # PyTorch for neural networks
+    # "xgboost>=2.0.0",        # Gradient boosting algorithms
+    
+    # === Data Science with Scripting ===
+    # pandas>=2.3.2            # Already included above
+    # numpy>=2.3.2             # Already included above
+    # matplotlib>=3.10.5       # Already included above
+    "seaborn>=0.13.2",         # Statistical visualization
+    
+    # === Statistical Analysis (regression, linear models, PDP plots) ===
+    # pandas>=2.3.2            # Already included above
+    "statsmodels>=0.14.0",     # Statistical models, regression analysis
+    # seaborn>=0.13.2          # Already included above
+    # scikit-learn>=1.5.0      # Already included above (for PDP plots)
+    
+    # === Intro to Mathematical Modelling ===
+    # numpy>=2.3.2             # Already included above
+    # matplotlib>=3.10.5       # Already included above
+    
+    # === Advanced Modelling (gradients, numerical methods) ===
+    # scipy>=1.16.1            # Already included above (numerical methods)
+    # numpy>=2.3.2             # Already included above (gradient computations)
+    
+    # === Testing and Quality (for champions) ===
+    # "pytest>=7.4.0",         # Testing framework
+    # "pytest-cov>=4.1.0",     # Code coverage for tests
+    # "black>=23.0.0",         # Code formatter
+    # "ruff>=0.1.0",           # Fast Python linter
+]
+
+[tool.uv]
+package = false  # This is a notebook project, not a Python package
